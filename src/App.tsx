@@ -4,7 +4,7 @@ import Start from "./content/start.mdx";
 import About from "./content/about.mdx";
 import Projects from "./content/project.mdx";
 import Blogs from "./content/blog.mdx";
-import Conclusion from "./content/conclusion.mdx"
+import Conclusion from "./content/conclusion.mdx";
 
 export function Container({ children }: { children: React.ReactNode }) {
   return <MDXProvider>{children}</MDXProvider>;
