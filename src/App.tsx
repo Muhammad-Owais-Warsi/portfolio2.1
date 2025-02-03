@@ -2,6 +2,7 @@ import React from "react";
 import { MDXProvider } from "@mdx-js/react";
 import Start from "./content/start.mdx";
 import About from "./content/about.mdx";
+import OpenSource from "./content/open-source.mdx"
 import Projects from "./content/project.mdx";
 import Blogs from "./content/blog.mdx";
 import Conclusion from "./content/conclusion.mdx";
@@ -62,6 +63,17 @@ function App() {
         }}
       >
         <About />
+      </div>
+      <div
+        style={{
+          width: "100%",
+          maxWidth: "800px",
+          margin: "0 auto",
+          padding: "1rem",
+          textAlign: "left",
+        }}
+      >
+        <OpenSource />
       </div>
       <div
         style={{
